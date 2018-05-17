@@ -1,0 +1,96 @@
+Changelog
+
+5th march
+	Added
+	-Splash screen
+	-Main Menu
+	Still Working on
+	-read and write files
+Summary: In this first week, i alot aof time towars figuring out how data would change and such.
+Because of this, i am around where the milestones say i should be as right now i am still reasearching on reading
+and writing files.
+
+11th March
+	Added
+	-Write Player Stats Files
+	-Read Player Stats Files
+	-Rules Page
+	Still Working
+	-read and write files
+Summary:I have added some player read and write file functionailty into the app. this is good as it is ahead of where i thought i would be.
+I know how my data will tranfer through my pages and i know how i am going to randomise the encounters. Milestons say i should have finished,
+menues and things like that which i have, so i am still ahead of my milstones.
+
+17th March
+	Added
+	-Created reload page
+	-about page
+	Still Working
+	Read Write files
+Summary:Reload page was especially difficult as while it still fits into my timeline, i needed to figure 
+out how to make the information go from one page to another after having read it. I have used 
+ArrayLists to help me with this as they can be set as final and changed. Still ahead of milestones.
+
+23 March
+	Added
+	-difficulty select page
+	-character select page
+	- Read Write Items
+	-TXT information done
+	Still working
+	-boxx page
+	-game page
+	-Main Activity
+Summary:I have populated my files and i have made them save to array lists where during the course of
+the game they can be altered to however the charater sees fit. My milestones say i should have finished user control, 
+i have not done this but otherwise i am up to speed.
+
+29th march
+	Added
+	-Main Activity Finished, checks if files are there before writes
+	-Finish Page
+	Still Working
+	-boxx page
+	-game page
+Summary:I am now trying to get a whole heap of the data tranformation working,
+things seem not to be adding and subtracting correctly and text views sometimes dont update.
+I should have finished user control by now, in relation to milestones i am falling further behind.
+
+5th of may
+	Added
+	-Reload Page which reads a text file and goes to game page
+	Still working
+	-boxx page
+	-game page
+Summary:Additions are nearly done for both boxx and game pages, they do share data correctly but im still trying to figure out the text views. Still far behind.
+
+11 of may
+	Added
+	-Game page now calculates player score and data
+	-Boxx Page now calculates player score
+	Still Working
+	-Boxx enemy AI
+Summary:I have no finished almost everything and updated with my milestones. I and now working on making AI difficulty, but the AI will change randomly
+so the boss is slightly different each time. 
+
+12 of may
+	Added
+	-Boxx AI not works and randomly generates
+	-Selection on Game page now randomly load
+	Still Working
+	-Publishing app
+Summary:Everything is finsihed. I am ahead of schedule and because i have extra time with no more milesotones to complete besides the video,
+i will start making sure the app is capaable of being published and hopefully will publish it.
+
+16th of may
+	Added
+	-Publishing App
+	Still working
+	Movie tour
+Summary:All milestones are done except for the video, i have started recording it and will finish editing it next time and converting it. 
+
+18th May
+	Added
+	- Movie Tour
+	- Uploaded
+Summary:All milestone completed and project hand in is done!

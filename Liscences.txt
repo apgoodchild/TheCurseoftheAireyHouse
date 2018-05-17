@@ -1,0 +1,16 @@
+Name of Resource: spider-web-vector-art.png (has been changed to untitled-3.png) 
+		Licence type: Public Domain
+		Attribution: https://www.goodfreephotos.com
+		web image source : https://www.goodfreephotos.com/albums/vector-images/spider-web-vector-art.png
+
+Name of Resource: Saving a file code
+		found in: MainActivity.class, game.class. reload.class
+		Licence type: Public Domain
+		Attribution: Neo108
+		Link:  https://stackoverflow.com/questions/17100886/how-to-write-an-array-to-a-text-file-on-internal-storage?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+		
+Name of Resource: Splash Screen
+		found in: SplashScreen.class
+		Licence type: public Domain
+		Attribution: Humayun Kabir
+		Link: https://www.youtube.com/watch?v=ND6a4V-xdjI
