@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain"
+    tools:context=".boxx">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/backMainbtn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Main Menu" />
+
+            <TextView
+                android:id="@+id/playerhealthtxt"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Health Stats:"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/bossstattxt"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Boss Status:"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/attackbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Attack" />
+
+            <Button
+                android:id="@+id/evadebtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dodge" />
+
+            <TextView
+                android:id="@+id/desctxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Suddenly from behind you, you hear a loud thudd! A man with a scar running down the whole left side of his body, runs at you naked! He is holding a knife! You must hold him off. Choose what you do wisely."
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

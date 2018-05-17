@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">The Curse of the Airey House</string>
+    <string name="title_activity_char_select">charSelect</string>
+    <string name="dialog_message">You Found a Item!</string>
+    <string name="dialog_title">hello</string>
+</resources>

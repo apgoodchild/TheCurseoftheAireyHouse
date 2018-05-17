@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain"
+    tools:context=".game">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/backMainbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Main Menu" />
+
+            <Button
+                android:id="@+id/savebtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save" />
+
+            <TextView
+                android:id="@+id/stattxt"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Health Stats:"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/keytxt"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Key Status:"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/explorebtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Explore" />
+
+            <Button
+                android:id="@+id/observationbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Make an Observation Check" />
+
+            <TextView
+                android:id="@+id/desctxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="You enter the house. Everything inside looks old and dusty. Almost as if the house was old. But how is it possible? The house was just built. You start looking around and BANG! the door shuts behind you. You check the front door, only to find your locked in. You hear a monster moving around. Obviously the house is haunted. You must find the key. All of the draws in the room are empty. You must explore to find the key and ket out, or defet the monster to survive. You begin to explore.\n\nMain Menu button takes you back to the main menu. Save button saves current game so it can be re opened via the load game button on main menu. Explore, changes the room you are currently in. Making an observation check searches for items in that room. To begin playing simply click Explore ."
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
